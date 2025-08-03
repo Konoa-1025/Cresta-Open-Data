@@ -1,0 +1,80 @@
+{
+  "status": 200,
+  "lastUpdated": "2025-08-03T13:00:00Z",
+  "message": "Mission data fetched successfully.",
+  "dailyMissions": [
+    {
+      "title": "曲を聴こう！",
+      "description": "Spotifyで曲を聞いてみよう！",
+      "missionLevel": 1,
+      "expReward": 20,
+      "goalValue": 1,
+      "actionType": "Spotify.listen",
+      "tags": ["曲", "ルーティン"]
+    },
+    {
+      "title": "3km歩いてみよう！",
+      "description": "外に出て軽い運動！",
+      "missionLevel": 2,
+      "expReward": 40,
+      "goalValue": 3.0,
+      "actionType": "Healthcare.Activity.walk-and-run",
+      "tags": ["健康", "運動"]
+    },
+    {
+      "title": "写真を撮ろう！",
+      "description": "『今』を記録しよう！",
+      "missionLevel": 1,
+      "expReward": 20,
+      "goalValue": 1,
+      "actionType": "photo.take",
+      "tags": ["記録", "写真"]
+    }
+  ],
+  "weeklyMissions": [
+    {
+      "title": "10km歩いてみよう！",
+      "description": "外に出て軽い運動！",
+      "missionLevel": 3,
+      "expReward": 60,
+      "goalValue": 10.0,
+      "actionType": "Healthcare.Activity.walk-and-run",
+      "tags": ["健康", "運動"]
+    },
+    {
+      "title": "スタバに行ってみよう！",
+      "description": "コーヒー「いっぱい」どう？",
+      "missionLevel": 3,
+      "expReward": 50,
+      "goalValue": 1,
+      "actionType": "Location.Go",
+      "LocationPlace": "",
+      "LocationType": "cafe",
+      "Location": "Starbucks",
+      "tags": ["カフェ", "位置"]
+    },
+    {
+      "title": "曲を15曲聴こう！",
+      "description": "Spotifyで曲を聞いてみよう！",
+      "missionLevel": 3,
+      "expReward": 20,
+      "goalValue": 15,
+      "actionType": "Spotify.listen.count",
+      "tags": ["曲", "ルーティン"]
+    }
+  ],
+  "yearlyMissions": [
+    {
+      "title": "北海道に行ってみよう！",
+      "description": "旅行だ！",
+      "missionLevel": 5,
+      "expReward": 200,
+      "goalValue": 1,
+      "actionType": "Location.Go",
+      "LocationPlace": "北海道",
+      "LocationType": "",
+      "Location": "",
+      "tags": ["旅行", "位置"]
+    }
+  ]
+}
