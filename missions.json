@@ -1,80 +1,203 @@
 {
-  "status": 200,
-  "lastUpdated": "2025-08-03T13:00:00Z",
-  "message": "Mission data fetched successfully.",
-  "dailyMissions": [
-    {
-      "title": "曲を聴こう！",
-      "description": "Spotifyで曲を聞いてみよう！",
-      "missionLevel": 1,
-      "expReward": 20,
-      "goalValue": 1,
-      "actionType": "Spotify.listen",
-      "tags": ["曲", "ルーティン"]
-    },
-    {
-      "title": "3km歩いてみよう！",
-      "description": "外に出て軽い運動！",
-      "missionLevel": 2,
-      "expReward": 40,
-      "goalValue": 3.0,
-      "actionType": "Healthcare.Activity.walk-and-run",
-      "tags": ["健康", "運動"]
-    },
-    {
-      "title": "写真を撮ろう！",
-      "description": "『今』を記録しよう！",
-      "missionLevel": 1,
-      "expReward": 20,
-      "goalValue": 1,
-      "actionType": "photo.take",
-      "tags": ["記録", "写真"]
-    }
-  ],
-  "weeklyMissions": [
-    {
-      "title": "10km歩いてみよう！",
-      "description": "外に出て軽い運動！",
-      "missionLevel": 3,
-      "expReward": 60,
-      "goalValue": 10.0,
-      "actionType": "Healthcare.Activity.walk-and-run",
-      "tags": ["健康", "運動"]
-    },
-    {
-      "title": "スタバに行ってみよう！",
-      "description": "コーヒー「いっぱい」どう？",
-      "missionLevel": 3,
-      "expReward": 50,
-      "goalValue": 1,
-      "actionType": "Location.Go",
-      "LocationPlace": "",
-      "LocationType": "cafe",
-      "Location": "Starbucks",
-      "tags": ["カフェ", "位置"]
-    },
-    {
-      "title": "曲を15曲聴こう！",
-      "description": "Spotifyで曲を聞いてみよう！",
-      "missionLevel": 3,
-      "expReward": 20,
-      "goalValue": 15,
-      "actionType": "Spotify.listen.count",
-      "tags": ["曲", "ルーティン"]
-    }
-  ],
-  "yearlyMissions": [
-    {
-      "title": "北海道に行ってみよう！",
-      "description": "旅行だ！",
-      "missionLevel": 5,
-      "expReward": 200,
-      "goalValue": 1,
-      "actionType": "Location.Go",
-      "LocationPlace": "北海道",
-      "LocationType": "",
-      "Location": "",
-      "tags": ["旅行", "位置"]
-    }
-  ]
+    "status": 200,
+    "lastUpdated": "2025-08-04T21:47:40.087870",
+    "message": "ミッションの追加！",
+    "dailyMissions": [
+        {
+            "title": "曲を聴こう！",
+            "description": "Spotifyで曲を聞いてみよう！",
+            "missionLevel": 1,
+            "expReward": 20,
+            "goalValue": 1,
+            "actionType": "Spotify.listen",
+            "tags": [
+                "曲",
+                "ルーティン"
+            ]
+        },
+        {
+            "title": "3km歩いてみよう！",
+            "description": "外に出て軽い運動！",
+            "missionLevel": 2,
+            "expReward": 40,
+            "goalValue": 3.0,
+            "actionType": "Healthcare.Activity.walk-and-run",
+            "tags": [
+                "健康",
+                "運動"
+            ]
+        },
+        {
+            "title": "写真を撮ろう！",
+            "description": "『今』を記録しよう！",
+            "missionLevel": 1,
+            "expReward": 20,
+            "goalValue": 1,
+            "actionType": "photo.take",
+            "tags": [
+                "記録",
+                "写真"
+            ]
+        },
+        {
+            "title": "朝の空を撮ろう！",
+            "description": "1日のはじまりを写真に残そう！",
+            "missionLevel": 1,
+            "expReward": 15,
+            "goalValue": 1,
+            "actionType": "photo.take",
+            "tags": [
+                "記録",
+                "朝活"
+            ]
+        },
+        {
+            "title": "お気に入りの曲を保存！",
+            "description": "Spotifyでお気に入りに1曲追加しよう！",
+            "missionLevel": 2,
+            "expReward": 25,
+            "goalValue": 1,
+            "actionType": "Spotify.save-track",
+            "tags": [
+                "音楽",
+                "習慣"
+            ]
+        },
+        {
+            "title": "曲を2時間聴こう！",
+            "description": "Spotifyでなんの曲聴こうかなー？",
+            "missionLevel": 2,
+            "expReward": 20,
+            "goalValue": 2,
+            "actionType": "Spotify.listen.time",
+            "tags": [
+                "曲",
+                "安らぎ"
+            ]
+        }
+    ],
+    "weeklyMissions": [
+        {
+            "title": "10km歩いてみよう！",
+            "description": "外に出て軽い運動！",
+            "missionLevel": 3,
+            "expReward": 60,
+            "goalValue": 10.0,
+            "actionType": "Healthcare.Activity.walk-and-run",
+            "tags": [
+                "健康",
+                "運動"
+            ]
+        },
+        {
+            "title": "スタバに行ってみよう！",
+            "description": "コーヒー「いっぱい」どう？",
+            "missionLevel": 3,
+            "expReward": 50,
+            "goalValue": 1,
+            "actionType": "Location.Go",
+            "LocationPlace": "",
+            "LocationType": "cafe",
+            "Location": "Starbucks",
+            "tags": [
+                "カフェ",
+                "位置"
+            ]
+        },
+        {
+            "title": "曲を15曲聴こう！",
+            "description": "Spotifyで曲を聞いてみよう！",
+            "missionLevel": 3,
+            "expReward": 20,
+            "goalValue": 15,
+            "actionType": "Spotify.listen.count",
+            "tags": [
+                "曲",
+                "ルーティン"
+            ]
+        },
+        {
+            "title": "図書館に行ってみよう！",
+            "description": "静かな空間で集中しよう！",
+            "missionLevel": 3,
+            "expReward": 50,
+            "goalValue": 1,
+            "actionType": "Location.Go",
+            "LocationPlace": "",
+            "LocationType": "library",
+            "Location": "",
+            "tags": [
+                "知力",
+                "位置"
+            ]
+        },
+        {
+            "title": "5日連続で歩こう！",
+            "description": "毎日の習慣をつけよう！",
+            "missionLevel": 4,
+            "expReward": 80,
+            "goalValue": 5,
+            "actionType": "Healthcare.Activity.walk-and-run.daycount",
+            "tags": [
+                "健康",
+                "継続"
+            ]
+        },
+        {
+            "title": "50kmを歩こう！",
+            "description": "塵も積もれば山となる",
+            "missionLevel": 4,
+            "expReward": 50,
+            "goalValue": 50,
+            "actionType": "Healthcare.Activity.walk-and-run",
+            "tags": [
+                "健康",
+                "習慣"
+            ]
+        }
+    ],
+    "yearlyMissions": [
+        {
+            "title": "北海道に行ってみよう！",
+            "description": "旅行だ！",
+            "missionLevel": 5,
+            "expReward": 400,
+            "goalValue": 1,
+            "actionType": "Location.Go",
+            "LocationPlace": "北海道",
+            "LocationType": "",
+            "Location": "",
+            "tags": [
+                "旅行",
+                "位置"
+            ]
+        },
+        {
+            "title": "沖縄に行ってみよう！",
+            "description": "旅行だ！",
+            "missionLevel": 5,
+            "expReward": 400,
+            "goalValue": 1,
+            "actionType": "Location.Go",
+            "LocationPlace": "沖縄",
+            "LocationType": "",
+            "Location": "",
+            "tags": [
+                "旅行",
+                "位置"
+            ]
+        },
+        {
+            "title": "一年で500枚の写真を撮ろう！",
+            "description": "",
+            "missionLevel": 5,
+            "expReward": 350,
+            "goalValue": 500,
+            "actionType": "photo.take",
+            "tags": [
+                "写真",
+                "記憶"
+            ]
+        }
+    ]
 }
