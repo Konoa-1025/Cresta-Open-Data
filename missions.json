@@ -83,7 +83,7 @@
             "goalValue": 300.0,
             "actionType": "Healthcare.Activity.active-energy-burned",
             "tags": [
-                " 健康",
+                "健康",
                 "運動"
         ]
     }
@@ -200,12 +200,12 @@
             ]
         },
         {
-            "title": "一年で500枚の写真を撮ろう！",
+            "title": "一年で360枚の写真を撮ろう！",
             "description": "",
             "missionLevel": 5,
             "expReward": 350,
-            "goalValue": 500,
-            "actionType": "photo.take",
+            "goalValue": 360,
+            "actionType": "photo.take.oneshot",
             "tags": [
                 "写真",
                 "記憶"
