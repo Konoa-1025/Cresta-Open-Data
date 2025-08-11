@@ -1,4 +1,10 @@
 {
+    "Editing-app": {
+        "appvar": 0.02,
+        "message": "アップデート検出機能を追加しました。",
+        "Updated date": "2025-08-11",
+        "AppURL": "http://example"
+    },
     "status": 200,
     "lastUpdated": "2025-08-04T21:47:40.087870",
     "message": "ミッションの追加！",
@@ -85,8 +91,8 @@
             "tags": [
                 "健康",
                 "運動"
-        ]
-    }
+            ]
+        }
     ],
     "weeklyMissions": [
         {
