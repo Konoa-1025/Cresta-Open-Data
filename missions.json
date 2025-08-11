@@ -74,7 +74,19 @@
                 "曲",
                 "安らぎ"
             ]
-        }
+        },
+        {
+            "title": " 300kcalを消費してみよー！",
+            "description": "今日の活動で カロリー消費！🔥",
+            "missionLevel": 2,
+            "expReward": 60,
+            "goalValue": 300.0,
+            "actionType": "Healthcare.Activity.active-energy-burned",
+            "tags": [
+                " 健康",
+                "運動"
+        ]
+    }
     ],
     "weeklyMissions": [
         {
